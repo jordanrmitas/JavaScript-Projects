@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Employee Search</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <h1>Employee Search</h1>
+
+        <search>
+            <form action="">
+                <input type="search" id="employee-search" placeholder="Search employees..." />
+            </form>
+        </search>
+
+        <table id="employee-table" class="data-table"></table>
+
+        <script type="module" defer>
+            import { generateTable } from './App.js';
+            generateTable();
+        </script>
+    </body>
+
+</html>

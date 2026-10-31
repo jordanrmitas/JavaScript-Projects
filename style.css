@@ -1,0 +1,44 @@
+h1 {
+    text-align: center;
+}
+
+.data-table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+th {
+    border: 2px solid black;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+}
+
+td {
+    border: 2px solid black;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+    text-align: left;
+}
+
+.employee-id {
+    text-align: right;
+}
+
+.employee-salary {
+    text-align: right;
+}
+
+th.selected {
+    background: #dddddd;
+}
+
+search {
+    display: flex;
+    width: 90%;
+    justify-content: right;
+}
